@@ -1,0 +1,157 @@
+body {
+
+    font-family: "Montserrat";
+    text-align: center;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+
+h1,h2,h3,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p {
+    color: #8F8F8F
+}
+.big-heading{
+    font-family:"Montserrat Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+.colored-section{
+     background-color: #FF4C68;
+     color: #FFF;
+}
+
+.white-section{
+background-color: #FFF;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat Light";
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/* Download Bottuns */
+.Download-Button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+    /* top:10%; */
+   
+}
+#title .container-fluid{
+    padding: 2% 7% 15%;
+    text-align: left;
+}
+/*do this code if we yous mobile and if width of screen is 1028 or less than */
+@media (max-width:1028px) {
+     #title{
+        text-align: center;
+    } 
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        right: 0; 
+    }
+
+}
+/*Features Section */
+#features{
+    position: relative;
+   /*  z-index: 1; */   
+  
+}
+
+.feature-title{
+    font-size: 2rem;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1.2rem;
+}
+.icon:hover{
+    color: #FF4C68;
+}
+
+
+/* Testimonial Section */
+#testimonials{
+    font-family: "Montserrat Bold";
+    padding-top: 3%;
+    background-color: #ef8172;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius:100%;    
+}
+
+/*Press Section*/
+#press{
+    background-color: #ef8172;
+     padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-colum{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*Footer Section*/
+.social-icon{
+    margin: 20px 10px;
+}
