@@ -73,7 +73,7 @@ background-color: #FFF;
 }
 /*do this code if we yous mobile and if width of screen is 1028 or less than */
 @media (max-width:1028px) {
-     #title{
+     #title .container-fluid {
         text-align: center;
     } 
     .title-image{
